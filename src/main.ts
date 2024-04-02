@@ -1,4 +1,4 @@
-import { AppDataSource } from "./domain/entity/datasource";
+import { AppDataSource } from "./domain/datasource";
 
 AppDataSource.initialize()
     .then(() => {
